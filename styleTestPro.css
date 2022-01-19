@@ -1,0 +1,360 @@
+﻿
+
+body {
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    background-color: #d4f4ff !important;
+}
+
+
+
+.tableHeader {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    border-style: ridge;
+    border-width: 2px;
+    border-left-style: ridge;
+    border-right-style: ridge;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+    .tableHeader tr:nth-child(odd) {
+        background-color: #dff5df;
+    }
+
+    .tableHeader tr:nth-child(even) {
+        background-color: #cedece;
+    }
+
+    .tableHeader tr, td {
+        border-collapse: collapse;
+        text-align: center;
+        width: 100%;
+        border-style: ridge;
+        border-width: 2px;
+        border-left-style: ridge;
+        border-right-style: ridge;
+    }
+
+.tableBody {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    border-style: ridge;
+    border-width: 2px;
+    border-left-style: ridge;
+    border-right-style: ridge;
+}
+
+    .tableBody tr, td {
+        border-collapse: collapse;
+        text-align: center;
+        width: 100%;
+        border-style: ridge;
+        border-width: 2px;
+        border-left-style: ridge;
+        border-right-style: ridge;
+    }
+
+.tableRow td {
+    border-bottom: ridge;
+    text-align: center;
+    height: 25px;
+    border-width: 2px;
+}
+
+.tableRowTop td {
+    border-bottom: ridge;
+    text-align: center;
+    height: 2px;
+    border-width: 2px;
+}
+
+.tableHeader1 {
+    width: 5%;
+    text-align: center;
+}
+
+.tableHeader2 {
+    width: 15%;
+    text-align: center;
+}
+
+.tableHeader3 {
+    width: 20%;
+    text-align: center;
+}
+
+.tableHeader4 {
+    width: 30%;
+    text-align: center;
+}
+
+.tableHeader5 {
+    width: 30%;
+    text-align: center;
+}
+
+.tableData1 {
+    width: 5%;
+    height: 25px;
+    text-align: center;
+}
+
+.tableData2 {
+    width: 15%;
+    height: 25px;
+    text-align: left;
+    text-indent: 5px;
+}
+
+.tableData3 {
+    width: 20%;
+    height: 25px;
+    text-align: left;
+    text-indent: 5px;
+}
+
+.tableData4 {
+    width: 30%;
+    height: 25px;
+    text-align: left;
+    text-indent: 5px;
+}
+
+.tableData5 {
+    width: 30%;
+    height: 25px;
+    text-align: left;
+}
+
+.cellPassFail {
+    width: 20%;
+    height: 30px;
+    min-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.radioSpace {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.columnwidth1 {
+    width: 10%;
+}
+
+.AlignLeft {
+    text-align: left;
+}
+
+.auto-style2 {
+    width: 20%;
+    text-align: left;
+    text-indent: 5px;
+    height: 30px;
+    min-height: 30px;
+}
+
+.auto-style3 {
+    width: 5%;
+    min-height: 30px;
+    height: 30px;
+}
+
+.auto-style4 {
+    width: 25%;
+    text-align: left;
+    text-indent: 5px;
+    height: 30px;
+    min-height: 30px;
+}
+
+.auto-style5 {
+    width: 35%;
+}
+
+.auto-style6 {
+    width: 30%;
+    text-align: left;
+    text-indent: 5px;
+    height: 30px;
+    min-height: 30px;
+}
+
+.auto-style7 {
+    width: 5%;
+    height: 60px;
+}
+
+.auto-style8 {
+    width: 20%;
+    height: 60px;
+}
+
+.auto-style9 {
+    width: 25%;
+    height: 60px;
+}
+
+.auto-style10 {
+    width: 30%;
+    height: 60px;
+}
+
+.auto-style11 {
+    height: 60px;
+}
+
+.auto-style12 {
+    height: 60px;
+    width: 25%;
+}
+
+.auto-style13 {
+    width: 25%;
+    height: 30px;
+}
+
+.rowVitalessential {
+    height: 20px;
+    background-color: lightslategray;
+    text-align: left;
+    text-indent: 5px;
+}
+
+.rowCompartment {
+    height: 20px;
+    text-align: center;
+}
+
+.bigCheckbox input {
+    width: 20px;
+    height: 20px;
+}
+
+.auto-style14 {
+    min-height: 30px;
+    height: 50px;
+    text-align: right;
+    padding-right: 25px
+}
+
+.auto-style15 {
+    width: 20%;
+    height: 30px;
+    min-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: lightgrey;
+}
+
+.auto-style16 {
+    width: 33%;
+    height: 30px;
+    min-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.auto-style18 {
+    width: 33%;
+    height: 30px;
+    min-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: lightgrey;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(51,51,51);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #b8c7ce;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .sidenav a:hover {
+            color: white;
+            background-color: darkgray
+        }
+
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 0px;
+        font-size: 36px;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+#main {
+    transition: margin-left .5s;
+    padding: 1px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+.auto-style19 {
+    width: 100%;
+}
+
+.auto-style20 {
+    width: 50%;
+    background-color: white;
+    border:none;
+}
+
+.btnShape1 {
+    color: black;
+    background-color: #b3ebff;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border: none 0px transparent;
+    font-size: 25px;
+    font-weight: lighter;
+    webkit-border-radius: 2px 16px 16px 16px;
+    -moz-border-radius: 2px 16px 16px 16px;
+    border-radius: 2px 16px 16px 16px;
+    font-weight: bold;
+}
+
+    .btnShape1:hover {
+        background-color: #56b5d6;
+        border: solid 1px #fff;
+    }
+
+    .btnShape1:focus {
+        color: #383838;
+        background-color: #fff;
+        border: solid 3px rgba(98,176,255,0.3);
+    }
